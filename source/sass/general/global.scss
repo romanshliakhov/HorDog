@@ -85,7 +85,7 @@ input[type="search"]::-webkit-search-results-decoration {
   display: flex;
   flex-direction: column;
   height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .content {
@@ -116,3 +116,9 @@ input[type="search"]::-webkit-search-results-decoration {
   font-weight: 900;
   margin-bottom: 20px;
 }
+
+.head {
+
+  background: linear-gradient(5deg, #ffffff 17%, #fed700 18%);
+}
+

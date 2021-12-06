@@ -1,8 +1,13 @@
 .banner {
-  min-height: 380px;
-  margin-top: 80px;
-  display: flex;
-  justify-content: space-between;
+  min-height: 648px;
+  padding-top: 80px;
+  background-color: var(--main-color);
+  background: linear-gradient(5deg, #ffffff 17%, #00bfff 18%);
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
 
   &__left {
     max-width: 425px;
@@ -34,6 +39,7 @@
   &__right {
     width: 490px;
     padding-left: 63px;
+    padding-top: 60px;
     display: flex;
     align-items: end;
   }
