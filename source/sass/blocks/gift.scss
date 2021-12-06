@@ -1,0 +1,27 @@
+.gift {
+  margin-top: 40px;
+
+  &__inner {
+    min-height: 260px;
+    border-radius: 20px;
+    background-color: var(--vivid-orange);
+    display: flex;
+    justify-content: center;
+  }
+
+  &__info {
+    width: 390px;
+    padding: 50px 0;
+    color: var(--white-color);
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 600;
+  }
+
+  &__title {
+    font-size: 47px;
+    line-height: 50px;
+    font-weight: 900;
+    margin-bottom: 25px;
+  }
+}
