@@ -1,3 +1,59 @@
 .footer {
-  height: 100px;
+  background-color: var(--main-color);
+
+  &__inner {
+    height: 196px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    height: 116px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__nav {
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__contacts {
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+  &__contacts-title {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: var(--very-dark-gray);
+  }
+
+  &__contacts-tel {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 800;
+    color: var(--very-dark-gray);
+  }
+
+  &__contacts-email {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--very-dark-gray);
+  }
+
+  &__socials {
+    display: flex;
+    justify-content: space-between;
+  }
 }
