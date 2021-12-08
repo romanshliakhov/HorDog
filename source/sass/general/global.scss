@@ -7,6 +7,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Nunito", sans-serif;
+  color: var(--very-dark-gray);
 }
 
 
@@ -121,7 +122,7 @@ input[type="search"]::-webkit-search-results-decoration {
   font-size: 28px;
   line-height: 32px;
   font-weight: 800;
-  color: var(--very-dark-gray);
+
 }
 
 .logo {
@@ -141,7 +142,6 @@ input[type="search"]::-webkit-search-results-decoration {
   font-size: 9px;
   line-height: 12px;
   font-weight: 400;
-  color: var(--very-dark-gray);
 }
 
 
