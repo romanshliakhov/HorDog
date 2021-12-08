@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hungry Dog</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <script src="js/picturefill.min.js" async="async"></script>
+  <link rel="preload" href="fonts/Nunito-Light.woff2" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="fonts/Nunito-Regular.woff2" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="fonts/Nunito-SemiBold.woff2" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="fonts/Nunito-Bold.woff2" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="fonts/Nunito-ExtraBold.woff2" as="font" crossorigin="anonymous" />
+  <link rel="preload" href="fonts/Nunito-Black.woff2" as="font" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <div class="content">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <a class="logo" href="#">
+              <svg  width='72' height='72'>
+                <use href='img/sprite/sprite.svg#logo'></use>
+              </svg>
+              <div class="logo__text">HungryDog</div>
+            </a>
+
+            <form class="header__search">
+              <label class="header__search-label">
+                <input class="header__search-input" type="text" placeholder="Поиск">
+                <svg  width='16' height='16'>
+                  <use href='img/sprite/sprite.svg#search'></use>
+                </svg>
+              </label>
+            </form>
+
+            <div class="header__profile">
+              <a class="header__profile-link" href="#">
+                <svg  width='20' height='18'>
+                  <use href='img/sprite/sprite.svg#favorites'></use>
+                </svg>
+              </a>
+              <a class="header__profile-link" href="#">
+                <svg  width='18' height='20'>
+                  <use href='img/sprite/sprite.svg#cart'></use>
+                </svg>
+              </a>
+              <a class="header__profile-link" href="#">
+                <svg  width='22' height='20'>
+                  <use href='img/sprite/sprite.svg#profile'></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="contacts">
+          <div class="container">
+            <div class="contacts__inner">
+              <h2 class="contacts__title subtitle">Контакты</h2>
+              <div class="contacts__info">
+                <div class="contacts__details">
+                  <div class="contacts__details-title">Адрес</div>
+                  <ul class="contacts__details-list">
+                    <li class="contacts__details-item">
+                      <div class="contacts__adress">г. Днипро, пл. Шевченко, 1</div>
+                    </li>
+                    <li class="contacts__details-item">
+                      <a class="contacts__phone" href="tel:+380678346571">80 (67) 834-65-71</a>
+                    </li>
+                    <li class="contacts__details-item">
+                      <a class="contacts__email" href="mailto:hungrydog.ua@gmail.com">hungrydog.ua@gmail.com</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="contacts__map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.774670040168!2d35.068850915660434!3d48.46085277925054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe2cde7357717%3A0xdcce1dbf1d49c22!2z0L_Quy4g0KjQtdCy0YfQtdC90LrQviwgMSwg0JTQvdC40L_RgNC-LCDQlNC90LXQv9GA0L7Qv9C10YLRgNC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNDkwMDA!5e0!3m2!1sru!2sua!4v1638945099531!5m2!1sru!2sua" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="questions">
+          <div class="container">
+            <div class="questions__inner">
+              <form class="questions__form">
+                <div class="questions__form-title"><span>Остались</span> вопросы?</div>
+                <p class="questions__form-descr">Заполните пожалуйста поля ниже, чтобы мы могли связаться с вами</p>
+                <label class="questions__form-label">
+                  <input class="questions__form-input" type="text" name="name" placeholder="Ваше имя" required>
+                </label>
+                <label class="questions__form-label">
+                  <input class="questions__form-input" type="tel" name="tel" placeholder="Ваш номер телефона" required>
+                </label>
+                <label class="questions__form-label">
+                  <input class="questions__form-input" type="email" name="email" placeholder="Ваш email" required>
+                </label>
+                <button class="questions__btn banner__catalog-link" type="submit">Отправить</button>
+              </form>
+              <div class="questions__right">
+                <div class="questions__image">
+                  <picture>
+                    <source type='image/webp' srcset='img/content/sleepy.webp'>
+                    <img class='questions__img' width='100' height='100' src='img/content/sleepy.png' alt='Sleepy dog'>
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__logo">
+            <a class="logo" href="#">
+              <svg  width='72' height='72'>
+                <use href='img/sprite/sprite.svg#logo'></use>
+              </svg>
+              <div class="logo__text">HungryDog</div>
+            </a>
+            <p class="copyright">© «Интернет-магазин натуральных лакомств для собак HungryDog.ua»</p>
+          </div>
+          <ul class="footer__nav">
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Каталог</a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Акции</a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Новости</a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Отзывы</a>
+            </li>
+          </ul>
+          <ul class="footer__nav">
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Оплата и доставка</a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Часто спрашивают</a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Обратная связь</a>
+            </li>
+            <li class="footer__nav-item">
+              <a class="footer__nav-link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <div class="footer__contacts">
+            <p class="footer__contacts-title">Мы всегда на связи</p>
+            <a class="footer__contacts-tel" href="tel:+380678346571">80 (67) 834-65-71</a>
+            <a class="footer__contacts-email" href="mailto:hungrydog.ua@gmail.com">hungrydog.ua@gmail.com</a>
+            <ul class="footer__socials">
+              <li class="footer__socials-item">
+                <a class="footer__socials-link" href="#">
+                  <svg  width='24' height='24'>
+                    <use href='img/sprite/sprite.svg#telegram'></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__socials-item">
+                <a class="footer__socials-link" href="#">
+                  <svg  width='24' height='24'>
+                    <use href='img/sprite/sprite.svg#whatsapp'></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__socials-item">
+                <a class="footer__socials-link" href="#">
+                  <svg  width='24' height='24'>
+                    <use href='img/sprite/sprite.svg#viber'></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__socials-item">
+                <a class="footer__socials-link" href="#">
+                  <svg  width='24' height='24'>
+                    <use href='img/sprite/sprite.svg#instagram'></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__socials-item">
+                <a class="footer__socials-link" href="#">
+                  <svg  width='24' height='24'>
+                    <use href='img/sprite/sprite.svg#facebook'></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/common.min.js"></script>
+</body>
+
+</html>
