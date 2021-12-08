@@ -1,0 +1,15 @@
+.checkout {
+  margin: 20px 0;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__info {
+    width: 620px;
+    background-color: red;
+  }
+
+
+}

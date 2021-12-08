@@ -1,0 +1,40 @@
+.order {
+  width: 310px;
+
+  &__basket {
+    min-height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  &__basket-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--dark-grayish-blue);
+
+    span {
+      color: var(--red-color);
+    }
+
+    &:first-child span {
+      color: var(--very-dark-gray);
+      font-weight: 600;
+    }
+
+    &:last-child {
+      font-weight: 800;
+      color: var(--very-dark-gray);
+
+      span {
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 800;
+        color: var(--very-dark-gray);
+      }
+    }
+  }
+}

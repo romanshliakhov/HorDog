@@ -61,7 +61,221 @@
       </header>
 
       <main class="main">
+        <section class="cart">
+          <div class="container">
+            <div class="cart__items-count subtitle"><span>3 товара</span> в корзине</div>
+            <div class="cart__inner">
+              <ul class="cart__order">
+                <li class="cart__order-item">
+                  <div class="cart__product">
+                    <div class="cart__product-image">
+                      <picture>
+                        <source type='image/webp' srcset='img/content/horns.webp'>
+                        <img class='cart__product-img' width='100' height='100' src='img/content/horns.png' alt='Рога оленя для собак'>
+                      </picture>
+                    </div>
+                    <div class="cart__product-descr">
+                      <div class="cart__product-title">Рога оленя для собак весом от 10 до 30 кг. Размер XL</div>
+                      <div class="cart__product-size">Размер XL от 30 кг</div>
+                    </div>
+                  </div>
 
+                  <div class="cart__product-price">
+                    <div class="cart__price-old">440 ₴</div>
+                    <div class="cart__price-new">310 ₴</div>
+                  </div>
+
+                  <button class="cart__product-cancel" type="button">
+                    <svg  width='20' height='20'>
+                      <use href='img/sprite/sprite.svg#basket'></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="cart__order-item">
+                  <div class="cart__product">
+                    <div class="cart__product-image">
+                      <picture>
+                        <source type='image/webp' srcset='img/content/bagel.webp'>
+                        <img class='cart__product-img' width='100' height='100' src='img/content/bagel.png' alt='Бублик из бычьего корня'>
+                      </picture>
+                    </div>
+                    <div class="cart__product-descr">
+                      <div class="cart__product-title">Бублик из бычьего корня</div>
+                      <div class="cart__product-size">1 штука</div>
+                    </div>
+                  </div>
+
+                  <div class="cart__product-price">
+                    <div class="cart__price-current">182 ₴</div>
+                  </div>
+
+                  <button class="cart__product-cancel" type="button">
+                    <svg  width='20' height='20'>
+                      <use href='img/sprite/sprite.svg#basket'></use>
+                    </svg>
+                  </button>
+                </li>
+                <li class="cart__order-item">
+                  <div class="cart__product">
+                    <div class="cart__product-image">
+                      <picture>
+                        <source type='image/webp' srcset='img/content/bucket-little.webp'>
+                        <img class='cart__product-img' width='100' height='100' src='img/content/bucket-little.png' alt='Подарок'>
+                      </picture>
+                    </div>
+                    <div class="cart__product-descr">
+                      <div class="cart__product-title">Легкое говяжье - пластины</div>
+                      <div class="cart__product-size">100 грамм</div>
+                    </div>
+                  </div>
+
+                  <div class="cart__gift">
+                    <svg  width='24' height='24'>
+                      <use href='img/sprite/sprite.svg#gift'></use>
+                    </svg>
+                    <div class="cart__gift-descr">
+                      <span>Подарок</span> за первый заказ!
+                    </div>
+                  </div>
+                </li>
+              </ul>
+
+              <aside class="order">
+                <div class="basket">
+                  <div class="basket__title subtitle">Ваша корзина</div>
+                  <ul class="order__basket">
+                    <li class="order__basket-item">Товары (3) <span>622 ₴</span></li>
+                    <li class="order__basket-item">Скидка <span>- 130 ₴</span></li>
+                    <li class="order__basket-item">Общая стоимость <span>490 ₴</span></li>
+                  </ul>
+                  <a class="basket__form-btn" href="#">Перейти к оформлению</a>
+                </div>
+              </aside>
+            </div>
+          </div>
+
+          <section class="info">
+            <div class="container">
+              <div class="info__inner">
+                <div class="headline">
+                  <div class="headline__title subtitle">С этим товаром заказывают</div>
+                  <div class="headline__arrows">
+                    <div class="headline__arrow">
+                      <svg  width='8' height='14'>
+                        <use href='img/sprite/sprite.svg#arrow'></use>
+                      </svg>
+                    </div>
+                    <div class="headline__arrow">
+                      <svg  width='8' height='14'>
+                        <use href='img/sprite/sprite.svg#arrow'></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="info__items">
+                  <div class="product">
+                    <div class="product__top">
+                      <div class="product__status product__status--sale">-30%</div>
+                      <a class="product__favorites" href="#">
+                        <svg width='17' height='15'>
+                          <use href='img/sprite/sprite.svg#favorites'></use>
+                        </svg>
+                      </a>
+                      <a class="product__image" href="#">
+                        <picture>
+                          <source type='image/webp' srcset='img/content/horns.webp'>
+                          <img class='product__img' width='100' height='100' src='img/content/horns.png' alt=''>
+                        </picture>
+                      </a>
+                    </div>
+                    <div class="product__info">
+                      <div class="product__price">
+                        <div class="product__price-old">440 ₴</div>
+                        <div class="product__price-new">310 ₴</div>
+                      </div>
+                      <div class="product__size">1 шт</div>
+                      <div class="product__title">Рога оленя для собак весом от 10 до 30 кг. Размер L</div>
+                    </div>
+                    <button class="product__add-cart">В корзину</button>
+                  </div>
+                  <div class="product">
+                    <div class="product__top">
+                      <a class="product__favorites" href="#">
+                        <svg width='17' height='15'>
+                          <use href='img/sprite/sprite.svg#favorites'></use>
+                        </svg>
+                      </a>
+                      <a class="product__image" href="#">
+                        <picture>
+                          <source type='image/webp' srcset='img/content/oil.webp'>
+                          <img class='product__img' width='100' height='100' src='img/content/oil.png' alt=''>
+                        </picture>
+                      </a>
+                    </div>
+                    <div class="product__info">
+                      <div class="product__price">
+                        <div class="product__price-current">165 ₴</div>
+                      </div>
+                      <div class="product__size">200 мл</div>
+                      <div class="product__title">Сельдевое масло</div>
+                    </div>
+                    <button class="product__add-cart">В корзину</button>
+                  </div>
+                  <div class="product">
+                    <div class="product__top">
+                      <div class="product__status product__status--sale">-10%</div>
+                      <a class="product__favorites" href="#">
+                        <svg width='17' height='15'>
+                          <use href='img/sprite/sprite.svg#favorites'></use>
+                        </svg>
+                      </a>
+                      <a class="product__image" href="#">
+                        <picture>
+                          <source type='image/webp' srcset='img/content/bagel.webp'>
+                          <img class='product__img' width='100' height='100' src='img/content/bagel.png' alt=''>
+                        </picture>
+                      </a>
+                    </div>
+                    <div class="product__info">
+                      <div class="product__price">
+                        <div class="product__price-old">202 ₴</div>
+                        <div class="product__price-new">182 ₴</div>
+                      </div>
+                      <div class="product__size">100 г</div>
+                      <div class="product__title">Бублик из бычьего корня</div>
+                    </div>
+                    <button class="product__add-cart">В корзину</button>
+                  </div>
+                  <div class="product">
+                    <div class="product__top">
+                      <div class="product__status product__status--new">Новинка</div>
+                      <a class="product__favorites" href="#">
+                        <svg width='17' height='15'>
+                          <use href='img/sprite/sprite.svg#favorites'></use>
+                        </svg>
+                      </a>
+                      <a class="product__image" href="#">
+                        <picture>
+                          <source type='image/webp' srcset='img/content/gristle.webp'>
+                          <img class='product__img' width='100' height='100' src='img/content/gristle.png' alt=''>
+                        </picture>
+                      </a>
+                    </div>
+                    <div class="product__info">
+                      <div class="product__price">
+                        <div class="product__price-current">88 ₴</div>
+                      </div>
+                      <div class="product__size">1 шт</div>
+                      <div class="product__title">Лопаточный хрящ говяжий для собак</div>
+                    </div>
+                    <button class="product__add-cart">В корзину</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
       </main>
     </div>
 
