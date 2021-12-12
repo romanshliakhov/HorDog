@@ -1,8 +1,8 @@
 {
-  "name": "Lenta",
+  "name": "HungryDog",
   "version": "1.0.0",
   "private": true,
-  "description": "Lenta project",
+  "description": "Homework project",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.0.0",
     "gulp-csso": "4.0.1",
