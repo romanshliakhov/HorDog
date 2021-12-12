@@ -73,11 +73,120 @@
         <section class="checkout">
           <div class="container">
             <div class="checkout__inner">
-              <div class="checkout__info">
+              <div class="checkout__details">
+                <div class="checkout__delivery-methods">
+                  <h2 class="checkout__title">Как доставить заказ?</h2>
+                  <ul class="checkout__delivery-list">
+                    <li class="checkout__delivery-method border">
+                      <div class="checkout__delivery-place">
+                        <svg  width='24' height='24'>
+                          <use href='img/sprite/sprite.svg#home'></use>
+                        </svg>
+                        <span>Курьером</span>
+                      </div>
+                      <div class="checkout__delivery-date">с 14 окт 2021, от 399 ₽</div>
+                    </li>
+                    <li class="checkout__delivery-method">
+                      <div class="checkout__delivery-place">
+                        <svg  width='24' height='24'>
+                          <use href='img/sprite/sprite.svg#store'></use>
+                        </svg>
+                        <span>В пункт выдачи</span>
+                      </div>
+                      <div class="checkout__delivery-date">с 21 окт 2021, от 199 ₽</div>
+                    </li>
+                  </ul>
+                </div>
 
+                <div class="checkout__payment-methods">
+                  <h3 class="checkout__subtitle">Как доставить заказ?</h3>
+                  <ul class="checkout__payment-list">
+                    <li class="checkout__payment-bank border">
+                      <picture>
+                        <source type='image/webp' srcset='img/content/Monobank.webp'>
+                        <img class="checkout__payment-monobank" width='100' height='100' src='img/content/Monobank.png' alt='MonoBank'>
+                      </picture>
+                    </li>
+                    <li class="checkout__payment-bank">
+                      <picture>
+                        <source type='image/webp' srcset='img/content/PrivatBank.webp'>
+                        <img class="checkout__payment-privat" width='100' height='100' src='img/content/PrivatBank.png' alt='PrivatBank'>
+                      </picture>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="checkout__address">
+                  <h3 class="checkout__subtitle">Адрес</h3>
+
+                  <form class="checkout__form-address">
+                    <label class="checkout__label">
+                      <input class="checkout__input" type="country" name="country" placeholder="Страна" required>
+                    </label>
+                    <label class="checkout__label">
+                      <input class="checkout__input" type="text" name="city" placeholder="Населённый пункт" required>
+                    </label>
+                    <label class="checkout__label">
+                      <input class="checkout__input" type="text" name="index" placeholder="Индекс" required>
+                    </label>
+                    <label class="checkout__label">
+                      <input class="checkout__input" type="text" name="street" placeholder="Улица" required>
+                    </label>
+                    <label class="checkout__label">
+                      <input class="checkout__input" type="text" name="house" placeholder="Дом" required>
+                    </label>
+                    <label class="checkout__label">
+                      <input class="checkout__input" type="text" name="apt" placeholder="Квартира" required>
+                    </label>
+                    <label class="checkout__label">
+                      <textarea class="checkout__textarea" name="comments" placeholder="Комментарий для курьера"></textarea>
+                    </label>
+                  </form>
+                </div>
+
+                <div class="checkout__addressee">
+                  <h2 class="checkout__title">Кто получит?</h2>
+
+                  <form class="checkout__form-addressee">
+                    <label class="checkout__label">
+                      <input class="checkout__input" type="text" name="name" placeholder="Имя" required>
+                    </label>
+                    <label class="checkout__label">
+                      <input class="checkout__input" type="text" name="surname" placeholder="Фамилия" required>
+                    </label>
+                    <label class="checkout__label">
+                      <input class="checkout__input" type="tel" name="tel" placeholder="Телефон" required>
+                    </label>
+                    <label class="checkout__label">
+                      <input class="checkout__input" type="email" name="email" placeholder="Email" required>
+                    </label>
+                  </form>
+                </div>
+
+                <div class="checkout__payment-methods">
+                  <h2 class="checkout__title">Способ оплаты</h2>
+
+                  <div class="checkout__payment-method border">
+                    <div class="checkout__payment-card">
+                      <svg  width='24' height='24'>
+                        <use href='img/sprite/sprite.svg#store'></use>
+                      </svg>
+                      <span>Картой онлайн</span>
+                    </div>
+                    <div class="checkout__payment-online">Оплата картой онлайн на сайте</div>
+                  </div>
+                </div>
               </div>
               <aside class="order">
-
+                <div class="basket">
+                  <div class="basket__title subtitle">Ваша корзина</div>
+                  <ul class="order__basket">
+                    <li class="order__basket-item">Товары (3) <span>622 ₴</span></li>
+                    <li class="order__basket-item">Скидка <span>- 130 ₴</span></li>
+                    <li class="order__basket-item">Общая стоимость <span>490 ₴</span></li>
+                  </ul>
+                  <a class="basket__form-btn" href="#">Перейти к оформлению</a>
+                </div>
               </aside>
             </div>
           </div>
