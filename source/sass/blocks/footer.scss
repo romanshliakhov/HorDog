@@ -2,7 +2,7 @@
   background-color: var(--main-color);
 
   &__inner {
-    height: 196px;
+    min-height: 196px;
     display: flex;
     align-items: center;
     justify-content: space-between;
